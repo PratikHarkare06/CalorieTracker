@@ -1,0 +1,123 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+*.pyo
+*.pyd
+
+# =====================
+# Virtual Environments
+# =====================
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+
+# =====================
+# Jupyter Notebooks
+# =====================
+.ipynb_checkpoints/
+*.ipynb
+
+# =====================
+# PyTorch / ML Models
+# =====================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.joblib
+runs/
+torch_hub/
+
+# =====================
+# YOLO / Ultralytics
+# =====================
+datasets/
+ultralytics/
+yolov5/
+yolov8/
+
+# =====================
+# Data Files
+# =====================
+data/
+*.csv
+*.json
+*.xml
+*.tsv
+*.parquet
+*.npy
+*.npz
+*.hdf5
+
+# =====================
+# Images & Videos (large assets)
+# =====================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# =====================
+# Streamlit
+# =====================
+.streamlit/secrets.toml
+
+# =====================
+# macOS
+# =====================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =====================
+# IDEs & Editors
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# =====================
+# Logs & Temp Files
+# =====================
+*.log
+*.tmp
+*.bak
+*.cache
+logs/
+tmp/
+temp/
+
+# =====================
+# Installed packages list
+# =====================
+installed_packages.txt

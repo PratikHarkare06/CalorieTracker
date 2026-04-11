@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Model files (if they're too large)
+*.pt
+*.pth
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+```
+
+3. Add your files to Git:
+```cmd
+git add .
+git status  # Check which files will be committed
+```
+
+4. Create your first commit:
+```cmd
+git commit -m "Initial commit: Food Detection with YOLOv8"
+```
+
+5. Create a new repository on GitHub:
+   - Go to https://github.com/
+   - Click "New" or "+" -> "New repository"
+   - Name your repository (e.g., "CalorieTracker")
+   - Don't initialize with README or .gitignore
+   - Click "Create repository"
+
+6. Link your local repository to GitHub and push the code:
+```cmd
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/CalorieTracker.git
+git push -u origin main
+```
+
+7. If you want to include the model file (if it's under GitHub's size limit):
+```cmd
+git lfs install
+git lfs track "*.pt"
+git add .gitattributes
+git commit -m "Add Git LFS tracking for model files"
+git push origin main
+```
+
+Note: Replace `YOUR_USERNAME` with your actual GitHub username. If you haven't already:
+- Install Git LFS if you want to push large files: https://git-lfs.com/
+- Configure Git with your credentials:
+```cmd
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+Your code should now be available on GitHub at: `https://github.com/YOUR_USERNAME/CalorieTracker`# filepath: c:\Users\prati\CascadeProjects\CalorieTracker_backup\CalorieTracker\.gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Model files (if they're too large)
+*.pt
+*.pth
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+```
+
+3. Add your files to Git:
+```cmd
+git add .
+git status  # Check which files will be committed
+```
+
+4. Create your first commit:
+```cmd
+git commit -m "Initial commit: Food Detection with YOLOv8"
+```
+
+5. Create a new repository on GitHub:
+   - Go to https://github.com/
+   - Click "New" or "+" -> "New repository"
+   - Name your repository (e.g., "CalorieTracker")
+   - Don't initialize with README or .gitignore
+   - Click "Create repository"
+
+6. Link your local repository to GitHub and push the code:
+```cmd
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/CalorieTracker.git
+git push -u origin main
+```
+
+7. If you want to include the model file (if it's under GitHub's size limit):
+```cmd
+git lfs install
+git lfs track "*.pt"
+git add .gitattributes
+git commit -m "Add Git LFS tracking for model files"
+git push origin main
+```
+
+Note: Replace `YOUR_USERNAME` with your actual GitHub username. If you haven't already:
+- Install Git LFS if you want to push large files: https://git-lfs.com/
+- Configure Git with your credentials:
+```cmd
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+Your code should now be available on GitHub at: `https://github.com/YOUR_USERNAME/CalorieTracker`
